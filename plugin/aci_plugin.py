@@ -53,12 +53,6 @@ class APIC(resource.Resource):
             'Default': '',
             'Description': _('List of rules, eg. ["tcp-80","udp-53"]')
         },
-        'RawJSON': {
-            'Type': 'List',
-            'Default': '',
-            'Description': _('URL , JSON Data to post')
-        },
-
     }
 
     attributes_schema = {
