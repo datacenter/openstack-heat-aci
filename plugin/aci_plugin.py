@@ -23,7 +23,6 @@ plugin_opts = [
                help='apic_system_id'),
 ]
 
-apic_config = cfg.CONF.ml2_cisco_apic
 conf = 'heat.common.config'
 apic_optgroup = cfg.OptGroup(name='apic_plugin', title='options for the apic plugin')
 cfg.CONF.register_group(apic_optgroup)
